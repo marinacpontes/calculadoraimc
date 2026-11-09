@@ -1,0 +1,12 @@
+Let's check this step carefully.
+We know S_p(N_2) = \prod_{r \mid n, r \neq 2} (1 + r^p) \equiv -1 \pmod 2 \equiv 1 \pmod 2.
+The product includes the factor (1 + p^p).
+Since p is an odd prime, p is odd, so p^p is odd.
+Thus 1 + p^p is EVEN, i.e., 1 + p^p \equiv 0 \pmod 2.
+Therefore, the entire product \prod_{r \mid n, r \neq 2} (1 + r^p) is divisible by 2, so it is \equiv 0 \pmod 2.
+But the condition requires it to be \equiv 1 \pmod 2!
+Contradiction!
+Therefore, 2 CANNOT divide n when p is an odd prime!
+Hence, if p >= 3, then n must be ODD!
+Since n is odd, n - 1 is EVEN.
+Since p - 1 is even, 2 | (p - 1) and 2 | (n - 1).
